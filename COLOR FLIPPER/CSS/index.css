@@ -51,4 +51,9 @@ main{
     cursor: pointer;
     padding: 0.75rem 1.25rem;
     border-radius: 0.4rem;
+    transition: all ease-in-out 400ms
+    ;
+}
+.container button:hover{
+    box-shadow: -5px -5px;
 }
