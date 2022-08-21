@@ -14,7 +14,10 @@ header h1{
     place-self: end;
     align-self: center;
     text-align: right;
-    
+    font-family: Raleway, sans-serif;
+    text-shadow:
+                 0.1rem 0.1rem 0 gray;
+                 
 }
 header .logo{
     place-self: start;
@@ -23,10 +26,12 @@ header .logo{
     font-weight: 700;
     font-family: Raleway, sans-serif;
     font-size: 2rem;
+    text-shadow: 0.025rem 0.025rem 0 yellow,
+                 0.05rem 0.05rem 0 blue,
+                 0.075rem 0.075rem 0 red,
+                 0.1rem 0.1rem 0 black;
 }
-header h1{
-    font-family: Raleway, sans-serif;
-}
+
 /* Main */
 main{
     width: 100vw;
@@ -57,3 +62,34 @@ main{
     box-shadow: 5px 5px;
     transform: translate(-5px,-5px);
 }
+.progress-3 {
+    width:120px;
+    height:20px;
+    border-radius: 20px;
+    background:
+     repeating-linear-gradient(135deg,#f03355 0 10px,#ffa516 0 20px) 0/0%   no-repeat,
+     repeating-linear-gradient(135deg,#ddd    0 10px,#eee    0 20px) 0/100%;
+    animation:p3 2s infinite;
+  }
+  @keyframes p3 {
+      100% {background-size:100%}
+  }
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    z-index: 999;
+    transition: all linear 2.5s;
+  }
+.hide-preloader {
+    z-index: -999;
+    visibility: hidden;
+  }
+
