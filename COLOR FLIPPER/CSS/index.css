@@ -26,10 +26,10 @@ header .logo{
     font-weight: 700;
     font-family: Raleway, sans-serif;
     font-size: 2rem;
-    text-shadow: 0.025rem 0.025rem 0 yellow,
-                 0.05rem 0.05rem 0 blue,
-                 0.075rem 0.075rem 0 red,
-                 0.1rem 0.1rem 0 black;
+    text-shadow: 0.05rem 0.05rem 0 yellow,
+                 0.1rem 0.1rem 0 blue,
+                 0.150rem 0.150rem 0 red,
+                 0.2rem 0.2rem 0 black;
 }
 
 /* Main */
